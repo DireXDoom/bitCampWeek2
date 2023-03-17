@@ -1,0 +1,8 @@
+body {
+    background-color: #FFFFFF;
+}
+div {
+    display: flex;
+    color: rgba(238, 13, 13, 0.925);
+    background-color: black;
+}
