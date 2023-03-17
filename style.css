@@ -1,8 +1,19 @@
 body {
     background-color: #FFFFFF;
 }
-div {
+.container {
     display: flex;
-    color: rgba(238, 13, 13, 0.925);
-    background-color: black;
+
+}
+.block {
+    flex-grow: 1;
+    height: 250px;
+    outline: 1px solid black;
+    margin: 5px;
+    background-color: blueviolet;
+    text-align: left;
+    line-height: 250px;
+}
+@media (min-width: 720px){
+
 }
