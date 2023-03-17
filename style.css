@@ -1,9 +1,10 @@
 body {
-    background-color: #FFFFFF;
+    background: rgb(240,240,244);
+    background: linear-gradient(90deg, rgba(240,240,244,1) 0%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%);
 }
 .container {
     display: flex;
-
+    
 }
 .block {
     flex-grow: 1;
@@ -11,9 +12,41 @@ body {
     outline: 1px solid black;
     margin: 5px;
     background-color: blueviolet;
-    text-align: left;
-    line-height: 250px;
+    text-align:center;
+    line-height: 50px;
 }
-@media (min-width: 720px){
+.button {
+    background-color: #13183F;
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    height: 56px;
+    width: 167px;
+    font-size: 18px;
+    margin: 4px 2px;
+    border-radius: 28px;
+    cursor: pointer;
+  }
 
+@media (min-width: 300px) {
+    .container {
+        flex-direction: column;
+    }
+    .two {
+        flex-grow: 2;
+        background-color: yellow;
+    }
+}
+@media (min-width: 1000px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+    .two {
+        flex-grow: 2;
+        background-color: red;
+    }
 }
