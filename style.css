@@ -37,6 +37,7 @@ p{
     border-radius: 28px;
     cursor: pointer;
 }
+
 .button1 {
     font-family: 'Plus Jakarta Sans', sans-serif;
     background-color: #F02AA6;
@@ -62,12 +63,17 @@ p{
         flex-grow: 2;
         background-color: yellow;
     }
+    
+    .mobile {
+        visibility: visible;
+    }
 }
 @media (min-width: 1000px) {
     .container {
         display: flex;
         flex-direction: row;
     }
+    
     .two {
         flex-grow: 2;
         background-color: red;
