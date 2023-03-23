@@ -9,14 +9,15 @@ body {
     padding-inline: 1rem;
 }
 .skill{
-    
     font-family: 'Plus Jakarta Sans', sans-serif; 
+    
+
     font-size: 28px;
     font-weight: 800;
     line-height: 35px;
     letter-spacing: 0px;
     text-align: left;
-    color: #f3f3f3; 
+    color: #13183F; 
 }
 .head {
     font-family: 'Plus Jakarta Sans', sans-serif; 
@@ -140,6 +141,12 @@ p {
     cursor: pointer;
     margin-bottom: 3rem;
 }
+.fullfill{  /* background is shevseba wrapperis an konteineris daignorebit */
+    box-shadow: 0 0 0 100vmax #13183F;
+    clip-path: inset(0 -100vmax);
+    display: flex;
+    align-items: center;
+}
 .buttonlast {
     font-family: 'Plus Jakarta Sans', sans-serif;
     background-image: 
@@ -190,10 +197,10 @@ p {
     position: relative;
     width: 100%;
     background-color: #13183F; 
-    height: 4rem;
+    height: 5rem;
     max-width:100%;
     margin-inline:unset;
-    padding-inline: 3rem;
+    padding-inline: 1rem;
     
 }
 .desktop {
