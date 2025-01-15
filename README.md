@@ -1,28 +1,3 @@
-# bitCampWeek2
- second week quest of bitcamp
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    
-</head>
-<body class="wrapper">
-    <div class="container">
-        <h1>ვიკრიბებით პარასკევს </h1>
-        <h2>18 იანვარს </h2>
-        <img src="https://media.discordapp.net/attachments/849015469276790816/861197779673153546/image0.jpg?ex=6788e4ee&is=6787936e&hm=bac56f9900dfbe0c8146a1788d15ac19d34323b88e51da19e5540788ac17d254&=&format=webp&width=263&height=350" alt="birthdaycake">
-        <h3> რა წამოვიღოთ? </h3>
-        <ul>
-            <li> სასმელი </li>
-            <li> სასმელი </li>
-            <li> სასმელი </li>
-            <li> დასაყოლებელი </li>
-        </ul>
-        <h3> შეკრების ლოკაცია </h3>
-        <a link rel="Google maps Link" href=" https://maps.app.goo.gl/ZVm4x6Q6HRsFiV3ZA">  აქანე </a>
-
-    </div>
-</body>
-</html>
 
 
 
